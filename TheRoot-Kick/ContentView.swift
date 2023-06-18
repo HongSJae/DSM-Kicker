@@ -25,20 +25,20 @@ struct KeyEventHandling: NSViewRepresentable {
         override func keyDown(with event: NSEvent) {
             print(event.keyCode)
             print(event.charactersIgnoringModifiers ?? "")
-//            if event.keyCode == 49 { // Spacebar의 키 코드는 49입니다.
-//                SoundSetting.instance.playSound()
-//            }
-            if press {
-                if event.keyCode == 33 {
-                    SoundSetting.instance.playSound()
-                    press.toggle()
-                }
-            } else {
-                if event.keyCode == 30 {
-                    SoundSetting.instance.playSound()
-                    press.toggle()
-                }
+            if event.keyCode == 49 { // Spacebar의 키 코드는 49입니다.
+                SoundSetting.instance.playSound()
             }
+//            if press {
+//                if event.keyCode == 33 {
+//                    SoundSetting.instance.playSound()
+//                    press.toggle()
+//                }
+//            } else {
+//                if event.keyCode == 30 {
+//                    SoundSetting.instance.playSound()
+//                    press.toggle()
+//                }
+//            }
         }
     }
 

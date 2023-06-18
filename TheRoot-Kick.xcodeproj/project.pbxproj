@@ -22,6 +22,7 @@
 		90A4525C2A3F24FD00A8CD92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90A4525E2A3F24FD00A8CD92 /* TheRoot_Kick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheRoot_Kick.entitlements; sourceTree = "<group>"; };
 		90A452662A3F2DF600A8CD92 /* Kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Kick.wav; path = ../../../Downloads/Kick.wav; sourceTree = "<group>"; };
+		90A452692A3F417500A8CD92 /* Kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		90A452542A3F24FC00A8CD92 /* TheRoot-Kick */ = {
 			isa = PBXGroup;
 			children = (
+				90A452682A3F416F00A8CD92 /* Sound */,
 				90A452662A3F2DF600A8CD92 /* Kick.wav */,
 				90A452552A3F24FC00A8CD92 /* TheRoot_KickApp.swift */,
 				90A452572A3F24FC00A8CD92 /* ContentView.swift */,
@@ -70,6 +72,14 @@
 				90A4525C2A3F24FD00A8CD92 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90A452682A3F416F00A8CD92 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				90A452692A3F417500A8CD92 /* Kick.wav */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
