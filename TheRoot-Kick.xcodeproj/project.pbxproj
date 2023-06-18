@@ -11,6 +11,7 @@
 		90A452582A3F24FC00A8CD92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A452572A3F24FC00A8CD92 /* ContentView.swift */; };
 		90A4525A2A3F24FD00A8CD92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A452592A3F24FD00A8CD92 /* Assets.xcassets */; };
 		90A4525D2A3F24FD00A8CD92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A4525C2A3F24FD00A8CD92 /* Preview Assets.xcassets */; };
+		90A452672A3F2DF600A8CD92 /* Kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90A452662A3F2DF600A8CD92 /* Kick.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		90A452592A3F24FD00A8CD92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90A4525C2A3F24FD00A8CD92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90A4525E2A3F24FD00A8CD92 /* TheRoot_Kick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheRoot_Kick.entitlements; sourceTree = "<group>"; };
+		90A452662A3F2DF600A8CD92 /* Kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Kick.wav; path = ../../../Downloads/Kick.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		90A452542A3F24FC00A8CD92 /* TheRoot-Kick */ = {
 			isa = PBXGroup;
 			children = (
+				90A452662A3F2DF600A8CD92 /* Kick.wav */,
 				90A452552A3F24FC00A8CD92 /* TheRoot_KickApp.swift */,
 				90A452572A3F24FC00A8CD92 /* ContentView.swift */,
 				90A452592A3F24FD00A8CD92 /* Assets.xcassets */,
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90A4525D2A3F24FD00A8CD92 /* Preview Assets.xcassets in Resources */,
+				90A452672A3F2DF600A8CD92 /* Kick.wav in Resources */,
 				90A4525A2A3F24FD00A8CD92 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
